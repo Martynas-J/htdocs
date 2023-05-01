@@ -1,0 +1,9 @@
+CREATE TRIGGER `atnaujinti` AFTER UPDATE ON `lentele1`
+ FOR EACH ROW UPDATE zduomenys SET Vardas=(NEW.Vardas) WHERE (OLD.Vardas)=(Vardas)
+
+CREATE TRIGGER `insert_lentele1` AFTER INSERT ON `lentele1`
+ FOR EACH ROW INSERT INTO zduomenys (Vardas)
+VALUES (NEW.Vardas)
+
+CREATE TRIGGER `istrinti` AFTER DELETE ON `lentele1`
+ FOR EACH ROW DELETE FROM zduomenys WHERE Vardas = OLD.Vardas

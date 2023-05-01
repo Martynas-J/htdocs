@@ -1,0 +1,110 @@
+
+<head>
+<style type="text/css">
+
+b {
+	float:right;
+	background-color:#00FF00;
+}
+#centras{z-index:1;}
+#ivadas{
+text-align:center;
+color:Black;
+ }
+#antraste {
+  position:absolute;
+  left:0px;
+  text-align:center; top:0px;
+  width:100%;
+  height:50px;
+  background-image:url(a2.jpg);
+  color:#FFFFFF;
+  text-align:center;
+  z-index:-50;
+}
+#meniu {
+  position:absolute;
+  left:0px;
+  top:50px;
+  width:100%;
+  height: 50px;
+  background-color:lightgrey;
+
+}#meniu li {
+    margin:10px;
+    text-align:center;
+    clear:both;
+	display: inline-block;
+	width:100px;
+	height:22px;
+	background-color:grey;
+	margin-left:20px;
+	border:1px solid #ccc;
+	border-radius: 10px 0px 0px 10px  ;
+}
+#meniu li:hover {
+background-color:#66FF99;
+	font-size: 110%;
+	cursor:pointer;	
+	border-radius: 10px 10px 10px 10px  ;
+}
+#kaire {
+ background-image:url(a1.jpg);
+  position:absolute;
+  left:0px;
+  top:100px;
+  width:300px;
+  height:515px;
+}
+ a {
+  color: Black;
+  text-align: center;
+  text-decoration: none;
+}
+#kaire li {
+    clear:both;
+	width:115px;
+	float:left;
+	height:22px;
+	text-align:center;
+	background-color:lightgrey;
+	margin:5px 20px ;
+	border-radius: 10px 0px 0px 10px  ;
+
+}
+#kaire li:hover {
+  	background-color:#66FF99;
+	font-size: 110%;
+	cursor:pointer;	
+	border-radius: 10px 10px 10px 10px  ;
+}
+#desine {
+ position:absolute;
+  left:1060px;
+  top:100px;
+  width:306px;
+  height:80%;
+  background-color:lightgrey;
+}
+#pagrindinis {
+  position:absolute;
+  left:339px;
+  top:100px;
+  width:600px;
+  height:300px;
+
+  z-index:1;
+}
+#apacia {
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  height:30px;
+  background-color:lightgrey;
+  text-align:center;
+  }
+</style>
+</head>
+
+</html>
